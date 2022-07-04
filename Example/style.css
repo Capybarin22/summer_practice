@@ -1,116 +1,128 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+/*CSS Reset*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    font: 16px 'Verdana', serif;
+    font-size: 100%;
+
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: 16px "Verdana", serif;
+
     vertical-align: baseline;
+
+    border: 0;
 }
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
 body {
     line-height: 1;
 }
-blockquote, q {
+blockquote,
+q {
     quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
     content: '';
     content: none;
 }
 table {
-    border-collapse: collapse;
     border-spacing: 0;
+    border-collapse: collapse;
 }
 
 /*CSS start here*/
 
-html, body, div.header_text_div{
+html,
+body,
+div.header_text_div
+{
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
-header {
+header
+{
     width: 100%;
     height: 10%;
-
 }
 
-div.header_text_div {
+div.header_text_div
+{
     display: flex;
 }
 
-p.header_text {
-    text-align: center;
+p.header_text
+{
+    font: 22px 'Verdana', solid;
+
     margin: auto;
-    font: 22px "Verdana", solid;
+
+    text-align: center;
 }
 
-main {
+main
+{
     width: 100%;
     height: 80%;
 }
 
-div.main_content {
+div.main_content
+{
     display: flex;
 }
 
-div.main_content_text {
+div.main_content_text
+{
     display: flex;
     flex-direction: column;
 }
 
-div.main_content_introduction {
+div.main_content_introduction
+{
+    display: flex;
+
     width: 100%;
     height: 10%;
-    display: flex;
 }
 
-p.main_content_introduction_text {
+p.main_content_introduction_text
+{
     margin: auto 0 auto 4%;
 }
 
-div.main_content_technologies {
+div.main_content_technologies
+{
     width: 90%;
     height: 90%;
     margin: 1% 0 0 10%;
 }
 
-div.main_content_image {
+div.main_content_image
+{
     display: flex;
+
     align-items: center;
     justify-content: center;
 }
 
-img.me_irl_ofc {
+img.me_irl_ofc
+{
     width: 95%;
     height: 95%;
 }
 
-footer {
+footer
+{
     width: 100%;
     height: 10%;
 }
 
-div.footer_text_div {
+div.footer_text_div
+{
     display: flex;
 }
 
-p.footer_text {
+p.footer_text
+{
     margin: auto;
 }
