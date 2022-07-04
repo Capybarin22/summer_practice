@@ -1,0 +1,165 @@
+/* CSS RESET*/
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, var, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, tbody, tfoot, thead, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	font: 16px 'Verdana', serif;
+	font-size: 100%;
+
+	margin: 0;
+	padding: 0;
+
+	vertical-align: baseline;
+
+	border: 0;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+/*CSS start here*/
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #d7eed7;
+}
+
+header {
+    display: flex;
+
+    width: 100%;
+    height: 15%;
+}
+
+div.logo_div {
+    width: 70%;
+    height: 100%;
+}
+
+img.logo_div_image {
+    width: 8%;
+    margin: 2% 0 0 2%;
+}
+
+div.anchors {
+    display: flex;
+
+    width: 30%;
+    height: 100%;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+p.anchor_text {
+    font: 18px 'Verdana', serif;
+    /*	border-bottom: 1px solid black;
+*/
+}
+
+main {
+    display: flex;
+
+    width: 100%;
+    height: 85%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+div.main_image {
+    width: 70%;
+    height: 100%;
+
+    background-image: url(1996-skoda-octavia.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+p.main_image_text {
+    font: 22px 'Verdana', serif;
+
+    width: 10%;
+    margin: 5% 0 0 5%;
+
+    color: whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+}
+
+footer {
+    width: 100%;
+    height: 0;
+}
+
+p.about_title_text {
+    font: 20px 'Verdana', serif;
+
+    margin: 2% 0 0 2%;
+}
+
+p.about_description_text {
+    font: 16px 'Verdana', serif;
+
+    margin: .5% 0 0 3%;
+}
+
+p.about_advantages_text {
+    font: 18px 'Verdana', serif;
+
+    margin: .5% 0 0 2%;
+}
+
+div.about_advantages_list {
+    margin: .5% 0 0 5%;
+}
+
+p.price_title {
+	font: 20px 'Verdana', serif;
+
+    margin: .5% 0 0 2%;
+
+}
+
+table {
+	margin: .5% 0 0 5%;
+	width: 50%;
+	height: 50%;
+}
+
+tr, th, td {
+	border: 1px solid black;
+	text-align: center;
+}
+
+p.contacts_title {
+    font: 18px 'Verdana', serif;
+
+    margin: 2% 0 0 2%;
+}
+
+p.contacts_text {
+	
+	font: 16px 'Verdana', serif;
+	margin: .5% 0 3% 3%;
+}
