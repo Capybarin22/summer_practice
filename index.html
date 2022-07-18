@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Calс</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+	<header class="header">
+		<div class="header__logo">
+			<img class="header__logo__image" src="../img/logo.png" alt="Our logo">
+		</div>
+		<div class="header__title">
+			<p class="header__title__text">
+				Calculator
+			</p>
+		</div>
+		<div class="header__about">
+			<div class="header__about__about-us">
+				<p class="header__about__about-us__text"><a href="#footer__about-us__text">О нас</a></p>
+			</div>
+			<div class="header__about__contacts">
+				<p class="header__about__contacts__text"><a href="#footer__contacts">Контакты</a></p>
+			</div>
+		</div>
+	</header>
+	<div class="left-nav-and-main">
+		<nav class="left-nav-and-main__left-nav">
+			<div class="left-nav-and-main__left-nav__title">
+				<p class="left-nav-and-main__left-nav__title__text">
+					Наш сайт располагает <br> несколькими видами
+				</p>
+			</div>
+			<div class="left-nav-and-main__left-nav__calculators">
+				<ul class="left-nav-and-main__left-nav__calculators__list">
+					<li class="left-nav-and-main__left-nav__calculators__list__title"><a class="left-nav-and-main__left-nav__calculators__list__title__trigger" href="#">Калькуляторов</a></li>
+					<div class="left-nav-and-main__left-nav__calculators__list__submenu hideble">
+						<ul class="left-nav-and-main__left-nav__calculators__list__submenu__list">
+							<li class="left-nav-and-main__left-nav__calculators__list__submenu__list__calculator"><a href="#">Обычный</a></li>
+							<li class="left-nav-and-main__left-nav__calculators__list__submenu__list__calculator-lite"><a href="#">Упрощённый</a></li>
+							<li class="left-nav-and-main__left-nav__calculators__list__submenu__list__third-calculator">В разработке...</li>
+						</ul>
+					</div>
+				</ul>
+			</div>
+		</nav>
+		<main class="left-nav-and-main__main">
+			<div class="left-nav-and-main__main__calculator hideble">
+				<div class="left-nav-and-main__main__calculator__inputs">
+					<div class="left-nav-and-main__main__calculator__inputs__task">
+						<input type="text" class="left-nav-and-main__main__calculator__inputs__task-input" placeholder="Enter your task">
+					</div>
+					<div class="left-nav-and-main__main__calculator__inputs__result">
+						<input type="text" class="left-nav-and-main__main__calculator__inputs__result-input" placeholder="result" disabled>
+					</div>
+					<div class="left-nav-and-main__main__calculator__inputs__memory">
+						<input type="text" class="left-nav-and-main__main__calculator__inputs__memory-input" placeholder="memory" disabled>
+					</div>
+				</div>
+				<div class="left-nav-and-main__main__calculator__memory-buttons">
+					<div class="left-nav-and-main__main__calculator__memory-buttons__save">
+						<button class="left-nav-and-main__main__calculator__memory-buttons__save__save-button">
+							MSave
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__memory-buttons__return">
+						<button class="left-nav-and-main__main__calculator__memory-buttons__return__return-button">
+							MReturn
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__memory-buttons__save-plus">
+						<button class="left-nav-and-main__main__calculator__memory-buttons__save-plus__save-plus-button">
+							M+
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__memory-buttons__save-minus">
+						<button class="left-nav-and-main__main__calculator__memory-buttons__save-minus__save-minus-button">
+							M-
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__memory-buttons__clear">
+						<button class="left-nav-and-main__main__calculator__memory-buttons__clear__clear-button">
+							MClear
+						</button>
+					</div>
+				</div>
+				<div class="left-nav-and-main__main__calculator__trigonometry-buttons">
+					<div class="left-nav-and-main__main__calculator__trigonometry-buttons__sin">
+						<button class="left-nav-and-main__main__calculator__trigonometry-buttons__sin__button">
+							sin(x)
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__trigonometry-buttons__cos">
+						<button class="left-nav-and-main__main__calculator__trigonometry-buttons__cos__button">
+							cos(x)
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__trigonometry-buttons__tg">
+						<button class="left-nav-and-main__main__calculator__trigonometry-buttons__tg__button">
+							tg(x)
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__trigonometry-buttons__pi">
+						<button class="left-nav-and-main__main__calculator__trigonometry-buttons__pi__button" style="font: bold 18px Verdana">
+							ℼ
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__trigonometry-buttons__e">
+						<button class="left-nav-and-main__main__calculator__trigonometry-buttons__e__button">
+							e
+						</button>
+					</div>
+				</div>
+				<div class="left-nav-and-main__main__calculator__log-and-erase-buttons">
+					<div class="left-nav-and-main__main__calculator__log-and-erase-buttons__log">
+						<button class="left-nav-and-main__main__calculator__log-and-erase-buttons__log__button">
+							log
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__log-and-erase-buttons__lg">
+						<button class="left-nav-and-main__main__calculator__log-and-erase-buttons__lg__button">
+							lg
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__log-and-erase-buttons__ln">
+						<button class="left-nav-and-main__main__calculator__log-and-erase-buttons__ln__button">
+							ln
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__log-and-erase-buttons__backspace">
+						<button class="left-nav-and-main__main__calculator__log-and-erase-buttons__backspace__button">
+							BackSpace
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__log-and-erase-buttons__clear">
+						<button class="left-nav-and-main__main__calculator__log-and-erase-buttons__clear__button">
+							Clear
+						</button>
+					</div>
+				</div>
+				<div class="left-nav-and-main__main__calculator__degree-and-numbers-buttons">
+					<div class="left-nav-and-main__main__calculator__degree-and-numbers-buttons__degree">
+						<button class="left-nav-and-main__main__calculator__degree-and-numbers-buttons__degree__button">
+							x<sup>y</sup>
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__degree-and-numbers-buttons__seven">
+						<button class="left-nav-and-main__main__calculator__degree-and-numbers-buttons__seven__button">
+							7
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__degree-and-numbers-buttons__eight">
+						<button class="left-nav-and-main__main__calculator__degree-and-numbers-buttons__eight__button">
+							8
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__degree-and-numbers-buttons__nine">
+						<button class="left-nav-and-main__main__calculator__degree-and-numbers-buttons__nine__button">
+							9
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__degree-and-numbers-buttons__ground">
+						<button class="left-nav-and-main__main__calculator__degree-and-numbers-buttons__ground__button">
+							y<sup>x</sup>
+						</button>
+					</div>
+				</div>
+				<div class="left-nav-and-main__main__calculator__parenthesis-and-numbers-buttons">
+					<div class="left-nav-and-main__main__calculator__parenthesis-and-numbers-buttons__left-parenthesis">
+						<button class="left-nav-and-main__main__calculator__parenthesis-and-numbers-buttons__left-parenthesis__button">
+							(
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__parenthesis-and-numbers-buttons__four">
+						<button class="left-nav-and-main__main__calculator__parenthesis-and-numbers-buttons__four__button">
+							4
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__parenthesis-and-numbers-buttons__five">
+						<button class="left-nav-and-main__main__calculator__parenthesis-and-numbers-buttons__five__button">
+							5
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__parenthesis-and-numbers-buttons__six">
+						<button class="left-nav-and-main__main__calculator__parenthesis-and-numbers-buttons__six__button">
+							6
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__parenthesis-and-numbers-buttons__right-parenthesis">
+						<button class="left-nav-and-main__main__calculator__parenthesis-and-numbers-buttons__right-parenthesis__button">
+							)
+						</button>
+					</div>
+				</div>
+				<div class="left-nav-and-main__main__calculator__multiplication-and-numbers-buttons">
+					<div class="left-nav-and-main__main__calculator__multiplication-and-numbers-buttons__division">
+						<button class="left-nav-and-main__main__calculator__multiplication-and-numbers-buttons__division__button">
+							/
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__multiplication-and-numbers-buttons__one">
+						<button class="left-nav-and-main__main__calculator__multiplication-and-numbers-buttons__one__button">
+							1
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__multiplication-and-numbers-buttons__two">
+						<button class="left-nav-and-main__main__calculator__multiplication-and-numbers-buttons__two__button">
+							2
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__multiplication-and-numbers-buttons__three">
+						<button class="left-nav-and-main__main__calculator__multiplication-and-numbers-buttons__three__button">
+							3
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__multiplication-and-numbers-buttons__multiplication">
+						<button class="left-nav-and-main__main__calculator__multiplication-and-numbers-buttons__multiplication__button">
+							*
+						</button>
+					</div>
+				</div>
+				<div class="left-nav-and-main__main__calculator__summation-and-numbers-buttons">
+					<div class="left-nav-and-main__main__calculator__summation-and-numbers-buttons__difference">
+						<button class="left-nav-and-main__main__calculator__summation-and-numbers-buttons__difference__button">
+							-
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__summation-and-numbers-buttons__zero">
+						<button class="left-nav-and-main__main__calculator__summation-and-numbers-buttons__zero__button">
+							0
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__summation-and-numbers-buttons__dot">
+						<button class="left-nav-and-main__main__calculator__summation-and-numbers-buttons__dot__button">
+							.
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__summation-and-numbers-buttons__equally">
+						<button class="left-nav-and-main__main__calculator__summation-and-numbers-buttons__equally__button">
+							=
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator__summation-and-numbers-buttons__summation">
+						<button class="left-nav-and-main__main__calculator__summation-and-numbers-buttons__summation__button">
+							+
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="left-nav-and-main__main__calculator-lite hideble">
+				<div class="left-nav-and-main__main__calculator-lite__inputs">
+					<div class="left-nav-and-main__main__calculator-lite__inputs__task">
+						<input type="text" name="" class="left-nav-and-main__main__calculator-lite__inputs__task-input" placeholder="Enter your task">
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__inputs__result">
+						<input type="text" name="" class="left-nav-and-main__main__calculator-lite__inputs__result-input" placeholder="result" disabled>
+					</div>
+				</div>
+				<div class="left-nav-and-main__main__calculator-lite__first-row">
+					<div class="left-nav-and-main__main__calculator-lite__first-row__backspace">
+						<button class="left-nav-and-main__main__calculator-lite__first-row__backspace__button">
+							BackSpace
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__first-row__degree">
+						<button class="left-nav-and-main__main__calculator-lite__second-row__degree__button">
+							x<sup>y</sup>
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__first-row__left-parenthesis">
+						<button class="left-nav-and-main__main__calculator-lite__first-row__left-parenthesis__button">
+							(
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__first-row__right-parenthesis">
+						<button class="left-nav-and-main__main__calculator-lite__first-row__right-parenthesis__button">
+							)
+						</button>
+					</div>
+				</div>
+				<div class="left-nav-and-main__main__calculator-lite__second-row">
+					<div class="left-nav-and-main__main__calculator-lite__second-row__division">
+						<button class="left-nav-and-main__main__calculator-lite__second-row__division__button">
+							/
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__second-row__seven">
+						<button class="left-nav-and-main__main__calculator-lite__second-row__seven__button">
+							7
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__second-row__eight">
+						<button class="left-nav-and-main__main__calculator-lite__second-row__eight__button">
+							8
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__second-row__nine">
+						<button class="left-nav-and-main__main__calculator-lite__second-row__nine__button">
+							9
+						</button>
+					</div>
+				</div>
+				<div class="left-nav-and-main__main__calculator-lite__third-row">
+					<div class="left-nav-and-main__main__calculator-lite__third-row__multiplication">
+						<button class="left-nav-and-main__main__calculator-lite__third-row__multiplication__button">
+							*
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__third-row__four">
+						<button class="left-nav-and-main__main__calculator-lite__third-row__four-button">
+							4
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__third-row__five">
+						<button class="left-nav-and-main__main__calculator-lite__third-row__five__button">
+							5
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__third-row__six">
+						<button class="left-nav-and-main__main__calculator-lite__third-row__six__button">
+							6
+						</button>
+					</div>
+				</div>
+				<div class="left-nav-and-main__main__calculator-lite__fourth-row">
+					<div class="left-nav-and-main__main__calculator-lite__fourth-row__difference">
+						<button class="left-nav-and-main__main__calculator-lite__fourth-row__difference__button">
+							-
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__fourth-row__one">
+						<button class="left-nav-and-main__main__calculator-lite__fourth-row__one__button">
+							1
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__fourth-row__two">
+						<button class="left-nav-and-main__main__calculator-lite__fourth-row__two__button">
+							2
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__fourth-row__three">
+						<button class="left-nav-and-main__main__calculator-lite__fourth-row__three__button">
+							3
+						</button>
+					</div>
+				</div>
+				<div class="left-nav-and-main__main__calculator-lite__fifth-row">
+					<div class="left-nav-and-main__main__calculator-lite__fifth-row__summation">
+						<button class="left-nav-and-main__main__calculator-lite__fifth-row__summation__button">
+							+
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__fifth-row__zero">
+						<button class="left-nav-and-main__main__calculator-lite__fifth-row__zero__button">
+							0
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__fifth-row__dot">
+						<button class="left-nav-and-main__main__calculator-lite__fifth-row__dot__button">
+							.
+						</button>
+					</div>
+					<div class="left-nav-and-main__main__calculator-lite__fifth-row__equally">
+						<button class="left-nav-and-main__main__calculator-lite__fifth-row__equally__button">
+							=
+						</button>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<footer class="footer">
+		<div class="footer__about-us">
+			<p class="footer__about-us__text" id="footer__about-us__text">
+				Мы - молодой перспектиный стартап Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure necessitatibus possimus neque iste rem libero inventore ullam velit, molestias facere eaque corporis quas, sint itaque explicabo illum, quia. Possimus, in.
+			</p>
+		</div>
+		<div class="footer__contacts" id="footer__contacts">
+			<p class="footer__contacts__phone-number">Телефон разработчика: "8-495-123-45-67"</p>
+			<p class="footer__contacts__email">Почта Разработчика: "example@mail.ru"</p>
+		</div>
+	</footer>
+	<script type="text/javascript" src="../js/jQuery.js"></script>
+	<script type="text/javascript" src="../js/script.js"></script>
+</body>
+
+</html>

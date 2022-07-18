@@ -1,0 +1,245 @@
+body
+{
+	display: flex;
+	flex-direction: column;
+
+	margin: 0;
+
+	background-color: lightgrey;
+}
+header.header
+{
+	display: flex;
+
+	height: 125px;
+	margin: 10px 0 0 25px;
+}
+div.header__logo
+{
+	width: 125px;
+	height: 125px;
+}
+div.header__title
+{
+	display: flex;
+
+	margin: 0;
+
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+}
+p.header__title__text
+{
+	font: 22px Verdana;
+
+	margin: 0;
+
+	text-align: center;
+}
+
+div.header__about
+{
+	display: flex;
+	flex-direction: column;
+
+	width: 100px;
+
+	align-items: center;
+}
+
+p.header__about__about-us__text,
+p.header__about__contacts__text
+{
+	margin: 10px 0 0 0;
+}
+
+a
+{
+	text-decoration: none;
+
+	color: brown;
+}
+
+div.left-nav-and-main
+{
+	display: flex;
+}
+
+nav.left-nav-and-main__left-nav
+{
+	width: 250px;
+	height: 400px;
+}
+div.left-nav-and-main__left-nav__title
+{
+	margin: 25px 0 0 0;
+}
+p.left-nav-and-main__left-nav__title__text
+{
+	font: 16px Verdana;
+
+	margin: 0;
+
+	text-align: center;
+}
+div.left-nav-and-main__left-nav__calculators
+{
+	height: 100px;
+	margin: 10px 0 0 0;
+}
+ul,
+li
+{
+	margin: 0;
+	padding: 0;
+}
+li.left-nav-and-main__left-nav__calculators__list__title
+{
+
+	font: bold 14px Verdana;
+
+	list-style-type: none;
+
+	text-align: center;
+}
+div.left-nav-and-main__left-nav__calculators__list__submenu
+{
+	display: none;
+	margin: 10px 0 0 0;
+	justify-content: center;
+}
+li.left-nav-and-main__left-nav__calculators__list__submenu__list__calculator,
+li.left-nav-and-main__left-nav__calculators__list__submenu__list__calculator-lite,
+li.left-nav-and-main__left-nav__calculators__list__submenu__list__third-calculator
+{
+	font: 14px Verdana;
+
+	list-style-type: none;
+
+	text-align: center;
+}
+
+main.left-nav-and-main__main
+{
+	display: flex;
+
+	flex-grow: 1;
+}
+
+div.left-nav-and-main__main__calculator,
+div.left-nav-and-main__main__calculator-lite
+{
+	display: flex;
+	flex-direction: column;
+
+	flex-grow: .85;
+	justify-content: center;
+	align-items: center;
+}
+
+input.left-nav-and-main__main__calculator__inputs__task-input,
+input.left-nav-and-main__main__calculator__inputs__result-input,
+input.left-nav-and-main__main__calculator__inputs__memory-input
+{
+	font: 14px Verdana;
+
+	width: 500px;
+	height: 25px;
+	padding: 0 0 0 7px;
+
+	border: 1px solid gray;
+	border-radius: 7px;
+}
+
+div.left-nav-and-main__main__calculator__memory-buttons,
+div.left-nav-and-main__main__calculator__trigonometry-buttons,
+div.left-nav-and-main__main__calculator__log-and-erase-buttons,
+div.left-nav-and-main__main__calculator__degree-and-numbers-buttons,
+div.left-nav-and-main__main__calculator__parenthesis-and-numbers-buttons,
+div.left-nav-and-main__main__calculator__multiplication-and-numbers-buttons,
+div.left-nav-and-main__main__calculator__summation-and-numbers-buttons,
+div.left-nav-and-main__main__calculator-lite__first-row,
+div.left-nav-and-main__main__calculator-lite__second-row,
+div.left-nav-and-main__main__calculator-lite__third-row,
+div.left-nav-and-main__main__calculator-lite__fourth-row,
+div.left-nav-and-main__main__calculator-lite__fifth-row
+{
+	display: flex;
+}
+
+input.left-nav-and-main__main__calculator-lite__inputs__task-input,
+input.left-nav-and-main__main__calculator-lite__inputs__result-input
+{
+	font: 12px Verdana;
+
+	width: 400px;
+	height: 25px;
+	padding: 0 0 0 7px;
+
+	border: 1px solid gray;
+	border-radius: 7px;
+}
+
+button
+{
+	font: 14px Verdana;
+
+	width: 100px;
+	height: 50px;
+}
+
+footer
+{
+	display: flex;
+
+	margin: 50px 0 0 0;
+
+	justify-content: space-around;
+}
+
+div.footer__about-us
+{
+	width: 750px;
+}
+
+div.footer__contacts
+{
+	width: 500px;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 767px)
+{
+	div.header__logo,
+	div.header__about,
+	nav.left-nav-and-main__left-nav,
+	div.left-nav-and-main__main__calculator,
+	footer.footer
+	{
+		display: none;
+	}
+	div.left-nav-and-main__main__calculator-lite
+	{
+		display: flex;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px)
+{
+	div.header__logo,
+	div.header__about,
+	nav.left-nav-and-main__left-nav,
+	div.left-nav-and-main__main__calculator-lite,
+	footer.footer
+	{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 4096px)
+{
+	div.left-nav-and-main__main__calculator-lite
+	{
+		display: none;
+	}
+}
